@@ -1,12 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Debastiani Education</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debastiani Education | Aulas particulares a domicílio</title>
+  <meta name="description" content="Aulas particulares a domicílio para Fundamental II e Ensino Médio. Matemática, Física, Química, Biologia, Português e demais disciplinas." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Debastiani Education</h1>
-    <p>Site em construção.</p>
+  <header class="topbar">
+    <a href="#inicio" class="brand" aria-label="Debastiani Education">
+      <img class="brand-logo" src="assets/logo-debastiani.png" alt="Debastiani Education" />
+    </a>
+    <nav class="menu" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#disciplinas">Disciplinas</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#valores">Valores</a>
+      <a href="#area">Área do aluno</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn small whatsapp" href="https://wa.me/5561992611497" target="_blank" rel="noopener">WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Aulas particulares domiciliares</p>
+        <h1>Ensino personalizado para melhorar o desempenho escolar.</h1>
+        <p class="lead">Acompanhamento individualizado para alunos do Fundamental II e Ensino Médio, com foco em Matemática, Física, Química, Biologia, Português e demais matérias do currículo escolar.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://wa.me/5561992611497?text=Olá,%20gostaria%20de%20informações%20sobre%20as%20aulas%20particulares." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+          <a class="btn ghost" href="#valores">Ver valores</a>
+        </div>
+        <div class="trust-row">
+          <span>Atendimento individual</span>
+          <span>Aprendisagem personalizado</span>
+          <span>Planos mensais</span>
+          <span>Professor vai até você</span>
+        </div>
+      </div>
+
+      <aside class="login-card" id="area">
+        <span class="lock">🔒</span>
+        <h2>Área do aluno</h2>
+        <p>A plataforma completa está em construção. No primeiro momento, os agendamentos serão realizados diretamente pelo WhatsApp.</p>
+        <form>
+          <label>E-mail</label>
+          <input type="email" placeholder="seu@email.com" disabled />
+          <label>Senha</label>
+          <input type="password" placeholder="••••••••" disabled />
+          <button type="button" disabled>Em breve</button>
+        </form>
+      </aside>
+    </section>
+
+    <section class="disciplines" id="disciplinas">
+      <article><span>➗</span><strong>Matemática</strong><small>Raciocínio lógico e resolução de problemas.</small></article>
+      <article><span>⚛️</span><strong>Física</strong><small>Conceitos explicados com clareza.</small></article>
+      <article><span>⚗️</span><strong>Química</strong><small>Teoria e exercícios aplicados.</small></article>
+      <article><span>🧬</span><strong>Biologia</strong><small>Aprendizagem conectada ao cotidiano.</small></article>
+      <article><span>📚</span><strong>Português</strong><small>Leitura, interpretação e produção textual.</small></article>
+      <article><span>🌎</span><strong>Demais matérias</strong><small>História, Geografia, Inglês, Redação e mais.</small></article>
+    </section>
+
+    <section class="split" id="como-funciona">
+      <div>
+        <p class="eyebrow">Como funciona</p>
+        <h2>Um atendimento pensado para a rotina da família.</h2>
+        <p>As aulas são direcionadas à necessidade do aluno, respeitando o conteúdo escolar, o ritmo de aprendizagem e os objetivos definidos na contratação.</p>
+      </div>
+      <div class="steps">
+        <article><b>1</b><span>Contato pelo WhatsApp para entender série, disciplina e objetivo.</span></article>
+        <article><b>2</b><span>Definição do melhor pacote de aulas conforme a necessidade.</span></article>
+        <article><b>3</b><span>Professor realiza o atendimento no endereço combinado.</span></article>
+      </div>
+    </section>
+
+    <section class="pricing" id="valores">
+      <div class="section-title">
+        <p class="eyebrow">Valores atuais</p>
+        <h2>Pacotes de aulas</h2>
+        <p>Valores válidos para pagamento no ato da contratação do pacote.</p>
+      </div>
+      <div class="price-grid">
+        <article class="price-card featured">
+          <span class="tag">Avulsa</span>
+          <h3>Aula individual</h3>
+          <p class="price">R$ 90,00 <small>/ hora</small></p>
+          <p>Ideal para reforços pontuais, revisões e dúvidas específicas.</p>
+        </article>
+        <article class="price-card">
+          <span class="tag">4 aulas no mês</span>
+          <h3>Pacote mensal</h3>
+          <div class="line"><span>Aulas de 1h30</span><strong>R$ 510,00</strong></div>
+          <div class="line"><span>Aulas de 2h</span><strong>R$ 680,00</strong></div>
+        </article>
+        <article class="price-card">
+          <span class="tag">8 aulas no mês</span>
+          <h3>Pacote mensal</h3>
+          <div class="line"><span>Aulas de 1h30</span><strong>R$ 960,00</strong></div>
+          <div class="line"><span>Aulas de 2h</span><strong>R$ 1.280,00</strong></div>
+        </article>
+      </div>
+      <div class="notes">
+        <span>PIX com 5% de desconto</span>
+        <span>Pagamento à vista em até 3x sem juros</span>
+        <span>Aulas não utilizadas serão devolvidas sem desconto do pacote</span>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div>
+        <h2>Quer verificar horários disponíveis?</h2>
+        <p>Fale diretamente pelo WhatsApp para informar a série, disciplina e a região de atendimento.</p>
+      </div>
+      <a class="btn primary light" href="https://wa.me/5561992611497?text=Olá,%20gostaria%20de%20agendar%20uma%20aula%20particular." target="_blank" rel="noopener">Fale conosco: (61) 99261-1497</a>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Debastiani Education</strong>
+    <span>Conhecimento sob medida</span>
+  </footer>
+
+  <a class="float-whats" href="https://wa.me/5561992611497" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">☎</a>
 </body>
 </html>
